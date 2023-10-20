@@ -1,0 +1,455 @@
+/*--------------footer--------*/
+/*------------End footer--------*/
+
+
+h4 {
+  margin: 10px;
+  color: azure;
+}
+
+.team-thumb .img-responsive:hover {
+  opacity: 0.3;
+}
+
+.team-thumb .img-responsive {
+  border-radius: 50%;
+  border: 2px solid gray;
+}
+
+a:hover,
+a h3:hover {
+  color: blue;
+
+}
+
+/* ....................new............................ */
+.item,
+.item-third {
+  background: url('images/school.jpg');
+}
+
+.img {
+  /* padding: 10px; */
+  margin-left: 100px;
+  margin-top: 0px;
+  height: 55px;
+  width: 117px;
+  position: relative;
+  top: -50px;
+  right: 100px;
+}
+
+.navbar,
+.custom-navbar,
+.navbar-fixed-top {
+  background-color: rgb(242, 247, 247);
+  font-size: 20px;
+}
+
+.img-responsive {
+  height: 230px;
+  width: 272px;
+}
+
+.te {
+  background-color: rgb(150, 215, 215);
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px 2px 0px;
+}
+
+/* Styles for the Popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* for getting center vertically and horizontally */
+  /* background-color: #fff; */
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* feedback */
+.contact-image{
+  display: flex;
+  justify-content: center;
+  
+}
+.contact1 {
+  height: 260px;
+  width: 400px; 
+  margin-top: 130px;
+}
+
+
+
+
+/* Addmission Form */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+/* Addmission End Form */
+
+/* popup start */
+       /* The Modal (background) */
+       .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 900px; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        /* background-color: rgba(0,0,0,0.4); Black w/ opacity */
+      }
+      
+      /* Modal Content */
+        .modal-content {
+          background-color: rgba(210, 211, 223, 0.873);
+          margin: 5% auto; /* 5% from the top and centered */
+          padding: 20px;
+          border: 1px solid #888;
+          width: 40%; 
+          max-height: 80vh; /* 80% of the viewport height */
+          overflow-y: auto; /* Allow vertical scrolling if the content exceeds the max-height */
+      }
+       
+    
+      
+      /* The Close Button */
+      .close {
+        color: black;
+        float: right;
+        font-size: 40px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: rgb(165, 22, 22);
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .no-scroll {
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .modal-content img{
+      /* box-shadow: 2px 2px 27px #000000; */
+      margin-top: 80px;
+      margin-bottom: 40px;
+      margin-left: 25px;
+    }
+    .modal-content img:hover{
+      box-shadow: 2px 2px 27px #000000;
+    }
+    .modal h3{
+      color: red;
+    }
+    
+/* popup End */
+
+
+
+/* Fees Structure */
+body{
+  background-color: #7b7878;
+}
+/* CSS for the table */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 50px 0;
+  font-size: 18px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #6d6767;
+}
+h1{
+  text-align: center;
+  color: black;
+}
+h4 {
+  text-align: left;
+  color: #b8c2c2;
+}
+/* Fees Structure End */
+
+
+/*................................
+              Navbar 
+ ................................*/
+ :root {
+  --color-primary: #0073ff;
+  --color-white: #e9e9e9;
+  --color-black: #141d28;
+  --color-black-1: #212b38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+ 
+}
+
+
+
+.menu-bar {
+  background-color: var(--color-black);
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0 5%;
+
+  position: relative;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+.menu-bar ul li {
+  /* width: 120px; */
+  padding: 10px 30px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu-bar ul li a {
+  font-size: 20px;
+  color: var(--color-white);
+  text-decoration: none;
+
+  transition: all 0.3s;
+}
+
+.menu-bar ul li a:hover {
+  color: var(--color-primary);
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: var(--color-black);
+}
+
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
+}
+
+.dropdown-menu-1 {
+  display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 0;
+  background-color: var(--color-black);
+}
+
+
+body{
+  background-color: rgba(238, 231, 231, 0.862);
+}
+
+
+/* navbar top */
+.cbsc{
+  background-color: #141d28;
+  color: white;
+}
+.cbsc ul{
+  display: flex;
+  justify-content: right;
+  margin-bottom: 1px;
+}
+.cbsc ul li{
+  margin-right: 50px;
+  list-style: none;
+}
+.cbsc ul li a{
+  color: white;
+  font-size: 20px;
+}
+.cbsc ul li a:hover{
+  color: #0073ff;
+}
+
+
+
+/* Gallery Style */
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 16px;
+}
+
+.gallery-item {
+  flex: 1;
+  max-width: calc(33.333% - 16px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.05);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 768px) {
+  .gallery-item {
+      max-width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gallery-item {
+      max-width: 100%;
+  }
+}
+
+
+.logo {
+  height: 65px;
+  width: 165px;
+  position: relative;
+  top: 0px;
+  right: 300px;
+}
+
+.row .columns #img {
+  margin-left: 5%;
+  margin-top: 10%;
+  box-shadow: 5px 5px rgb(205, 32, 32);
+  height: 350px;
+  width: 350;
+}
+/* principle */
+.row {
+  display: flex;
+}
+
+.columns {
+  display: flex;
+}
+
+.hentry {
+  margin: 20px;
+}
+
+.posts-container .box {
+  margin: 10%;
+}
